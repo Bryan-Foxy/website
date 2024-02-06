@@ -1,5 +1,7 @@
 from flask import Flask, render_template, url_for
 
+#coConfig file
+
 app = Flask(__name__)
 
 @app.route("/")
